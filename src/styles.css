@@ -115,3 +115,10 @@ a{
     border-bottom:1.5px solid #aaaaaa;
 
 }
+
+.input_box i {
+    position: absolute;
+    top : 50%;
+    transform: translateY(-50%);
+    font-size:20px
+}
