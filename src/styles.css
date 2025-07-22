@@ -141,3 +141,9 @@ a{
     right:0;
     font-size:18px
 }
+
+.option_field{
+    display: flex;
+    align-items : center;
+    justify-content : space-between; 
+}
