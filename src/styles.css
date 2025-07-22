@@ -124,8 +124,13 @@ a{
     transform: translateY(-50%);
     font-size:20px
 }
-
+.input_box i.password,
 .input_box i.email{
     left:0;
     color: #707070;
+}
+
+.input_box i.pw_hide{
+    right:0;
+    font-size:18px
 }
