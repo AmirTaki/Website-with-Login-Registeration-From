@@ -112,6 +112,8 @@ a{
     width:100%;
     border: none;
     outline:none;
+    color:#333;
+    padding: 0 30px; 
     border-bottom:1.5px solid #aaaaaa;
 
 }
@@ -125,4 +127,5 @@ a{
 
 .input_box i.email{
     left:0;
+    color: #707070;
 }
