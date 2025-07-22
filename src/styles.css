@@ -83,7 +83,9 @@ a{
     box-shadow : rgba(0, 0, 0, .1);
 
 }
-
+.signup_form{
+    display: none;   
+}
 .form_close {
     position: absolute;
     top : 10px;
@@ -186,5 +188,5 @@ a{
     font-size:12px;
     text-align: center;
     margin-top:15px;
-    
+
 }
