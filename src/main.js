@@ -23,3 +23,9 @@ loginupBtn.addEventListener('click', (e)=>{
     e.preventDefault();
     formContainer.classList.remove("active")
 })
+
+pwShowHide.forEach((icon)=>{
+    icon.addEventListener("click", (e) => {
+        let getPwInput =  icon.parentElement.querySelector("input")
+    })
+})
