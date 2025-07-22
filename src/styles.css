@@ -169,3 +169,7 @@ a{
     user-select: none;
     cursor:pointer
 }
+
+.checkbox input {
+    accent-color: #7d2ae8;
+}
