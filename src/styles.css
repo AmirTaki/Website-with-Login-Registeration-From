@@ -5,8 +5,11 @@
     box-sizing: border-box;
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-optical-sizing: auto;
+    list-style: none;
 }
-
+a{
+    text-decoration: none;
+}
 
 .header {
     position: fixed;
@@ -28,4 +31,8 @@
     align-items: center;
     justify-content: space-between;
     height: 100%;
+}
+
+.nav_item a{
+    margin-right:  25px;
 }
