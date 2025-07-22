@@ -75,4 +75,5 @@ a{
     left:50%;
     transform : translate(-50%, -50%);
     z-index: 101;
+    background-color: #fff;
 }
