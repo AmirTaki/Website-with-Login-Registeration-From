@@ -143,7 +143,14 @@ a{
 }
 
 .option_field{
+    margin-top : 14px ;
     display: flex;
     align-items : center;
     justify-content : space-between; 
+}
+
+.checkbox{
+    display: flex;
+    white-space : nowrap;
+
 }
