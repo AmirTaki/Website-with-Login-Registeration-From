@@ -115,7 +115,11 @@ a{
     color:#333;
     padding: 0 30px; 
     border-bottom:1.5px solid #aaaaaa;
+    transition : all .2s ease
+}
 
+.input_box input:focus{
+    border-color : #7d2ae8;
 }
 
 .input_box i {
