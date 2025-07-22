@@ -14,3 +14,12 @@ formOpenBtn.addEventListener("click", (e)=>{
 formCloseBtn.addEventListener("click", (e)=>{
     home.classList.remove('show')
 })
+
+signupBtn.addEventListener('click', (e)=>{
+    e.preventDefault();
+    formContainer.classList.add("active")
+})
+loginupBtn.addEventListener('click', (e)=>{
+    e.preventDefault();
+    formContainer.classList.remove("active")
+})
