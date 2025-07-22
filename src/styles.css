@@ -68,7 +68,12 @@ a{
     background-size : cover;
     background-position : center
 }
-
+.home::before{
+    content:"";
+    height: 100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, .4);   
+}
 .home.show  .form_container{
     opacity: 1;
     pointer-events: auto;
