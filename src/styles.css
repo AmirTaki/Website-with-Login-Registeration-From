@@ -133,7 +133,10 @@ a{
     left:0;
     color: #707070;
 }
-
+.input_box input:focus ~ i.email,
+ .input_box input:focus ~ i.password{
+    color : #7d2ae8;
+}
 .input_box i.pw_hide{
     right:0;
     font-size:18px
