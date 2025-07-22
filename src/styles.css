@@ -36,3 +36,11 @@ a{
 .nav_item a{
     margin-right:  25px;
 }
+
+.nav_logo {
+    font-size: 25px;
+}
+
+.nav_link:hover {
+    color: #d9d9d9
+}
