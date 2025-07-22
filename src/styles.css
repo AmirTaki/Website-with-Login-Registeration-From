@@ -107,6 +107,15 @@ a{
     transition: all  .4s  ease-out;
 
 }
+
+
+.form_container.active .signup_form{
+    display: block;
+}
+
+.form_container.active .login_form{
+    display: none;
+}
 .signup_form{
     display: none;   
 }
