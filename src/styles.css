@@ -69,8 +69,9 @@ a{
     background-position : center
 }
 
-.home.show{
-
+.home.show  .form_container{
+    opacity: 1;
+    pointer-events: auto
 }
 
 .form_container {
