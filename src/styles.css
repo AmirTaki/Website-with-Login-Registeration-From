@@ -87,3 +87,9 @@ a{
     opacity: .7;
     cursor: pointer;
 }
+
+.form_container h2  {
+    font-size: 22px ;
+    color: #0b0217;
+    text-align: center;
+}
