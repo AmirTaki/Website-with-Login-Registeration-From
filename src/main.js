@@ -6,3 +6,11 @@ const signupBtn = document.querySelector('#signup')
 const loginupBtn = document.querySelector('#loginup')
 const  pwShowHide = document.querySelectorAll('.pw_hide')
 
+
+formOpenBtn.addEventListener("click", (e)=>{
+    home.classList.add("show")
+})
+
+formCloseBtn.addEventListener("click", (e)=>{
+    home.classList.remove('show')
+})
